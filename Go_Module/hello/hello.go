@@ -18,7 +18,7 @@ func main() {
 
 	// Request a greeting message
 
-	message, err := greetings.Hello("Mark")
+	message, err := greetings.Hello("Gladys")
 	if err != nil {
 		log.Fatal(err)
 	}
